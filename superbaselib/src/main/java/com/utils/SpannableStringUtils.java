@@ -31,7 +31,8 @@ import android.text.style.TypefaceSpan;
 import android.text.style.URLSpan;
 import android.text.style.UnderlineSpan;
 
-import com.timo.timolib.MyApplication;
+
+import com.App.MyApplication;
 
 import static android.graphics.BlurMaskFilter.Blur;
 

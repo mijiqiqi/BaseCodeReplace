@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 
 import com.umeng.analytics.MobclickAgent;
 
+
 public abstract class BaseActivity extends AppCompatActivity {
     protected abstract int getContentResId();
     @Override
@@ -13,6 +14,7 @@ public abstract class BaseActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(getContentResId());
         initView();
+
     }
 
     @Override
